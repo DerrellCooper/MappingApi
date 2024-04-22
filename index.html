@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Bing Map API</title>
+        <link rel="stylesheet" href="CSS/main.css" />
+        <script src="Scripts/main.js"></script>
+        <script src='https://www.bing.com/api/maps/mapcontrol?key=Ar0vZ-H8d-P-2ZCA8iWdECkXA0DW8fDpsvekJuGcczR5GtN35cIcOMIqzKTpEHRT'></script>
+    </head>
+
+    <body onload="GetMap()">
+        
+            <div id="interestPoints">
+                <ul>
+                    <li id="schools"><button onclick="loadSchools()">Schools</button></li>
+                    <li><button onclick="loadRestaurants()">Food</button></li>
+                    <li>Casino</li>
+                    <li>Entertainment</li>
+                </ul>
+            </div>
+            <div id="myMap"></div>
+            <div >
+                <h1>List of Businesses</h1>
+                <div id="listOfPins"></div>
+            </div>
+        
+    <fieldset style="width:800px;margin-top:10px;">
+            <legend></legend>
+            
+        </fieldset>
+    </body>
+    </html>
